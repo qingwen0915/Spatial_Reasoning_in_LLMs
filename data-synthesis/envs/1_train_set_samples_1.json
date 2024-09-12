@@ -1,0 +1,34 @@
+[
+    {
+        "world": [
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                3,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                1
+            ]
+        ],
+        "nl_description": "You are in a 3 by 3 world. There are obstacles that you have to avoid at: (2,1) and (2,2). Go from (0,0) to (1,0)",
+        "solution_coordinates": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "agent_as_a_point": "down ",
+        "agent_has_direction": "move forward "
+    }
+]

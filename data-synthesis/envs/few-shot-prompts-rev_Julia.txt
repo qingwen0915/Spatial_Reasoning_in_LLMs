@@ -1,0 +1,13 @@
+Provide a sequence of actions to navigate a world to reach a goal similarly to the examples below. (0,0) is located in the upper-left corner and (M, N) lies in the M row and N column.
+###
+Task: You are in a 10 by 10 world. There are obstacles that you have to avoid at: (4,5), (1,9), (2,5), (7,4) and (7,5). Go from (3,1) to (4,3)
+Actions: right right down 
+###
+Task: You are in a 10 by 10 world. There are obstacles that you have to avoid at: (2,4), (4,5), (3,9), (2,8) and (6,0). Go from (2,0) to (8,8)
+Actions: right right right down right right right right right down down down down down 
+###
+Task: You are in a 10 by 10 world. There are obstacles that you have to avoid at: (4,4), (5,8), (5,9), (2,1) and (8,5). Go from (0,7) to (8,1)
+Actions: left left left left left down down down left down down down down down 
+###
+Task: You are in a 10 by 10 world. There are obstacles that you have to avoid at: (9,3), (5,0), (7,8), (2,5) and (3,7). Go from (3,0) to (5,1)
+Actions: Provide the sequence of actions.

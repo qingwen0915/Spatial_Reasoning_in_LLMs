@@ -1,0 +1,11 @@
+Provide a sequence of actions to navigate a world to reach a goal similarly to the examples below. (0,0,0) is located in the lower-left-back corner and (M, N, K) lies in the M-th row, N-th column, and K-th depth.
+###
+Task: You are in a 3 by 3 by 3 world. There are obstacles that you have to avoid at: . Go from (2,2,2) to (1,0,0)
+Actions: up left left backward backward 
+###
+Task: You are in a 3 by 3 by 3 world. There are obstacles that you have to avoid at: (0,1,0), (0,1,2) and (0,0,0). Go from (2,0,1) to (1,0,0)
+Actions: up backward 
+###
+Task: You are in a 3 by 3 by 3 world. There are obstacles that you have to avoid at: (0,0,2). Go from (2,0,2) to (2,0,1)
+Actions: backward 
+###
