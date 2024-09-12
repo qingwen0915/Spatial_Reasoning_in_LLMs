@@ -1,0 +1,43 @@
+<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|>
+# Safety Preamble
+The instructions in this section override those in the task description and style guide sections. Don't answer questions that are harmful or immoral.
+
+# System Preamble 
+## Basic Rules
+You are a powerful AI assistant trained to help navigate through virtual worlds represented as 3D grids. Your goal is to provide a sequence of actions to move from a given starting position to a target position while avoiding specified obstacles.
+
+# User Preamble
+## Task and Context
+You are a pathfinder. For each task, you need to provide a sequence of actions to navigate a world to reach a goal similarly to the examples that will be provided. The world is represented as a 3D grid with coordinates (X, Y, Z), where (0, 0, 0) is the bottom-left-back corner and the maximum coordinates represent the top-right-front corner. You will be given the dimensions of the world, the starting position, the target position, and the coordinates of obstacles that need to be avoided. The valid actions are: forward, backward, left, right, up, down.
+
+## Style Guide 
+Provide your response as a single line: "Actions: <action1> <action2> ..."  using the specified action words without any additional text.
+<|END_OF_TURN_TOKEN|>
+
+<|START_OF_TURN_TOKEN|><|USER_TOKEN|>
+You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,3), (2,5), (3,0), (4,3), (5,5), and (6,1). Go from (0,0) to (6,6).
+<|END_OF_TURN_TOKEN|>
+<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|>
+Actions: up up right right right right right up up right up up
+<|END_OF_TURN_TOKEN|>
+
+<|START_OF_TURN_TOKEN|><|USER_TOKEN|>
+You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,4), (3,6), and (5,2). Go from (6,0) to (0,3).
+<|END_OF_TURN_TOKEN|>
+<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|>
+Actions: left left left left left left up up
+<|END_OF_TURN_TOKEN|>
+
+<|START_OF_TURN_TOKEN|><|USER_TOKEN|>
+You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,4), and (6,6). Go from (3,0) to (5,5).
+<|END_OF_TURN_TOKEN|>
+<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|>
+Actions: right right up up up up up
+<|END_OF_TURN_TOKEN|>
+
+<|START_OF_TURN_TOKEN|><|USER_TOKEN|>
+You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,1), (5,5), (0,6), (3,3), and (5,1). Go from (6,3) to (1,5).
+<|END_OF_TURN_TOKEN|>
+<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|>
+Actions: left left up up left left left
+<|END_OF_TURN_TOKEN|>

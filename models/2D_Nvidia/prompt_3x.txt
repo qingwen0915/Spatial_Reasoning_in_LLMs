@@ -1,0 +1,13 @@
+System: You are a pathfinder. For each task, provide a sequence of actions to navigate a 2D world to reach a goal similarly to the examples below. (0,0) is located in the bottom left corner. (X, Y) is in the top right corner.
+
+User: Task: You are in a 3 by 3 world. There are obstacles that you have to avoid at: (2,1) and (2,2). Go from (0,2) to (0,0)
+Assistant: Actions: down down
+
+User: Task: You are in a 3 by 3 world. There are obstacles that you have to avoid at: (0,1) and (2,0). Go from (1,2) to (0,0)
+Assistant: Actions: down down left
+
+User: Task: You are in a 3 by 3 world. There are obstacles that you have to avoid at: (0,0) and (2,2). Go from (2,1) to (0,2)
+Assistant: Actions: left left up
+
+User: Task: You are in a 3 by 3 world. There are obstacles that you have to avoid at: (0,2) and (0,1). Go from (0,0) to (1,1)
+Assistant: Actions: right up

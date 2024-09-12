@@ -1,0 +1,11 @@
+<s>[INST] Provide a sequence of actions to navigate a world to reach a goal similarly to the examples below. The world is represented as a 3D grid with coordinates (X, Y, Z), where (0, 0, 0) is the bottom-left-back corner and the maximum coordinates represent the top-right-front corner. 
+Task: You are in a 3 by 3 by 3 world. There are obstacles that you have to avoid at: (0,1,0), (0,1,2) and (0,0,0). Go from (2,0,1) to (1,0,0) [/INST] 
+Actions: left backward </s>
+
+<s>[INST] Provide a sequence of actions to navigate a world to reach a goal similarly to the examples below. The world is represented as a 3D grid with coordinates (X, Y, Z), where (0, 0, 0) is the bottom-left-back corner and the maximum coordinates represent the top-right-front corner. 
+Task: You are in a 3 by 3 by 3 world. There are obstacles that you have to avoid at: (0,1,1) and (1,1,1). Go from (2,2,2) to (1,0,0) [/INST] 
+Actions: backward backward left left dowm </s>
+
+<s>[INST] Provide a sequence of actions to navigate a world to reach a goal similarly to the examples below. The world is represented as a 3D grid with coordinates (X, Y, Z), where (0, 0, 0) is the bottom-left-back corner and the maximum coordinates represent the top-right-front corner. 
+Task: You are in a 3 by 3 by 3 world. There are obstacles that you have to avoid at: (0,0,2). Go from (2,0,2) to (2,0,1) [/INST] 
+Actions: backward </s>

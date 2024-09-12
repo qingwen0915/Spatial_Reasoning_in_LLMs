@@ -1,0 +1,24 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+You are a pathfinder. For each task, provide a sequence of actions to navigate a 2D world to reach a goal similarly to the examples below. (0,0) is located in the bottom left corner. (X, Y) is in the top right corner.
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+Task: You are in a 3 by 3 world. There are obstacles that you have to avoid at: (2,1) and (2,2). Go from (0,2) to (0,0)
+<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+Actions: down down
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+Task: You are in a 3 by 3 world. There are obstacles that you have to avoid at: (0,1) and (2,0). Go from (1,2) to (0,0)
+<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+Actions: down down left
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+Task: You are in a 3 by 3 world. There are obstacles that you have to avoid at: (0,0) and (2,2). Go from (2,1) to (0,2)
+<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+Actions: left left up
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+Task: You are in a 3 by 3 world. There are obstacles that you have to avoid at: (0,2) and (0,1). Go from (0,0) to (1,1)
+<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+Actions: right up
+
+<|eot_id|>|start_header_id|>user<|end_header_id|>
