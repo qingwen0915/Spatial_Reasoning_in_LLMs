@@ -1,2 +1,2 @@
-# Spatial_Reasoning_in_Large_LLMs-
+# Spatial_Reasoning_in_LLMs-
 This is the repo for Spatial Reasoning in Large Language Models (LLMs)  project 
